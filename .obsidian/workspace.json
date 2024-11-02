@@ -1,0 +1,314 @@
+{
+  "main": {
+    "id": "104dc575764e7821",
+    "type": "split",
+    "children": [
+      {
+        "id": "b8b4196aba88a296",
+        "type": "tabs",
+        "dimension": 45.46079779917469,
+        "children": [
+          {
+            "id": "8a6106c884aa23b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git && GitHub.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Git && GitHub"
+            }
+          }
+        ]
+      },
+      {
+        "id": "3741dbc872c8a25b",
+        "type": "tabs",
+        "dimension": 54.53920220082531,
+        "children": [
+          {
+            "id": "3bd38e382a3bc200",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git 工作流.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Git 工作流"
+            }
+          },
+          {
+            "id": "6eb68d6aded6fb8d",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "_excalidraw/Git的基本命令概览.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Git的基本命令概览.excalidraw"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7c478374cbaed794",
+    "type": "split",
+    "children": [
+      {
+        "id": "5eb979ffd9b51e5b",
+        "type": "tabs",
+        "dimension": 73.84020618556701,
+        "children": [
+          {
+            "id": "10a70c3f613d2f0f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "c689d31b6cd4c6af",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      },
+      {
+        "id": "06d185ea479aaa27",
+        "type": "tabs",
+        "dimension": 26.15979381443299,
+        "children": [
+          {
+            "id": "4510076f7eab33d0",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
+            }
+          },
+          {
+            "id": "1d90ba70e4f083d5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:excalidraw",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "9635e7a2278636eb",
+    "type": "split",
+    "children": [
+      {
+        "id": "d3d62e5ae71f8244",
+        "type": "tabs",
+        "dimension": 76.15248226950355,
+        "children": [
+          {
+            "id": "4dcf29e3f9ea8f13",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Git && GitHub.md"
+              },
+              "icon": "lucide-list",
+              "title": "Git && GitHub 的大纲"
+            }
+          },
+          {
+            "id": "74f36bb1101cf3e8",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          }
+        ]
+      },
+      {
+        "id": "8789b6b8de3fcd86",
+        "type": "tabs",
+        "dimension": 23.847517730496456,
+        "children": [
+          {
+            "id": "1be19c96a4057139",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Git && GitHub.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Git && GitHub 的反向链接列表"
+            }
+          },
+          {
+            "id": "78f79a442d3b4b37",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "AWESOME/_excalidraw/Rending.excalidraw.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Rending.excalidraw 的出链列表"
+            }
+          },
+          {
+            "id": "c67da8fb66e3052d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "cfbe3dd1594ed823",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "插件不再活动"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 400,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "zk-prefixer:创建时间戳笔记": true,
+      "switcher:打开快速切换": true,
+      "graph:查看关系图谱": true,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": true,
+      "templates:插入模板": true,
+      "command-palette:打开命令面板": true,
+      "markdown-importer:打开 Markdown 格式转换器": true,
+      "workspaces:管理工作区布局": true,
+      "publish:发布更改": true,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "omnisearch:Omnisearch": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "8a6106c884aa23b4",
+  "lastOpenFiles": [
+    "_excalidraw/多人协同的工作流.excalidraw.md",
+    "Git 工作流.md",
+    "Git && GitHub.md",
+    "_excalidraw/Git基础工作流.excalidraw.md",
+    "_excalidraw/Git的基本命令概览.excalidraw.md",
+    "Excalidraw/Drawing 2024-11-02 13.15.30.excalidraw.md",
+    "Excalidraw",
+    "_excalidraw",
+    "_pic",
+    "README.md",
+    "The Theory of Computer Networks/引导之始-计算机网络.md",
+    "The Theory of Computer Networks/计算机网络-你应该从这里开始.md",
+    "LiZhuoran-s-Wiki/README.md",
+    "LiZhuoran-s-Wiki",
+    "Computer Graphics/几何/参数拟合 39d028c50cd14689aea569a133930efd.md",
+    "Computer Graphics/几何/参数拟合 39d028c50cd14689aea569a133930efd/Untitled.png",
+    "Computer Graphics/Rendering/GAME101.md",
+    "That is Unreal",
+    "That is Unreal/_pic/游戏中的MVC.png",
+    "That is Unreal/_pic/WorldContext.png",
+    "That is Unreal/_pic/World.png",
+    "That is Unreal/_pic/UE的构建流程.png",
+    "That is Unreal/_pic/UE的构建入口.png",
+    "That is Unreal/_pic/UE构建的各个阶段.png",
+    "That is Unreal/_pic/Pawn.png",
+    "That is Unreal/_pic/Pawn 流程图.png",
+    "That is Unreal/_pic/Lua_table_0.png",
+    "That is Unreal/_pic",
+    "That is Unreal/_pdf/Lua程序设计 第4版14497876.pdf",
+    "That is Unreal/_pdf",
+    "That is Unreal/_excalidraw",
+    "That is Unreal/UE部分源代码/CopyBuildToStagingDirectory.Automation.cs",
+    "That is Unreal/UE的渲染系统/UE的渲染分析.md",
+    "That is Unreal/UE的渲染系统/UE5 自定义着色模型.md",
+    "That is Unreal/UE的渲染系统/Lumen.md",
+    "That is Unreal/UE的构建/UE的打包流程.md",
+    "That is Unreal/UE的构建/UAT详细文件查询记录.md",
+    "That is Unreal/UE的构建/UAT构建.md",
+    "That is Unreal/技术任务.md",
+    "That is Unreal/UE5, 启动！.md",
+    "That is Unreal/UE4架构.md",
+    "That is Unreal/Lua和C++的交互.md",
+    "Computer Graphics/几何/隐式曲线 6276318a214b4ea1a58706a3ff09f055.md",
+    "Computer Graphics/几何/细分曲线 b1094b09cff4438ea9b9cd17c7e5be83.md",
+    "Computer Graphics/几何/函数拟合 19906ec5669a4c0ca23a63cfb8e93b52.md",
+    "Computer Graphics/几何/三次样条函数 f9fa4a670fc84ed9959a5fe70b35bea1.md",
+    "AWESOME/Render理论一切从此处开始.canvas",
+    "Modern C++/Object-oriented Programming/未命名.canvas",
+    "未命名.canvas",
+    "Math/Notes/Analytics/Amnn/Amnn--分析.canvas",
+    "筑波面试/未命名.canvas",
+    "Computer Science/LearnOpenGL/未命名.canvas"
+  ]
+}

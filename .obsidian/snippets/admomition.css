@@ -1,0 +1,13 @@
+.admonition-content {
+    margin-bottom: 0 !important;  /* 减少底部空间 */
+    line-height: 1.2 !important;             /* 调整行间距，您可以根据需要更改这个值 */
+}
+/* 减少Admonition中正文与列表之间的间距 */
+.admonition-content p + ul,
+.admonition-content p + ol {
+    margin-top: 3px !important;  /* 根据需要调整这个值 */
+}
+/* 减少Admonition中正文和LaTeX块之间的间距 */
+.admonition-content p + .markdown-preview-section .katex-display {
+    margin-top: 3px;  /* 根据需要调整这个值 */
+}

@@ -1,0 +1,8 @@
+{
+  "defaultEnvironment": "align",
+  "customEnvironments": [
+    "align",
+    "enumerate",
+    "psmatrix"
+  ]
+}

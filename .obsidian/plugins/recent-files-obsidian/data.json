@@ -1,0 +1,207 @@
+{
+  "recentFiles": [
+    {
+      "basename": "Git && GitHub",
+      "path": "Git && GitHub.md"
+    },
+    {
+      "basename": "多人协同的工作流.excalidraw",
+      "path": "_excalidraw/多人协同的工作流.excalidraw.md"
+    },
+    {
+      "basename": "Git 工作流",
+      "path": "Git 工作流.md"
+    },
+    {
+      "basename": "Git基础工作流.excalidraw",
+      "path": "_excalidraw/Git基础工作流.excalidraw.md"
+    },
+    {
+      "basename": "Git的基本命令概览.excalidraw",
+      "path": "_excalidraw/Git的基本命令概览.excalidraw.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "引导之始-计算机网络",
+      "path": "The Theory of Computer Networks/引导之始-计算机网络.md"
+    },
+    {
+      "basename": "计算机网络-你应该从这里开始",
+      "path": "The Theory of Computer Networks/计算机网络-你应该从这里开始.md"
+    },
+    {
+      "basename": "函数拟合 19906ec5669a4c0ca23a63cfb8e93b52",
+      "path": "Computer Graphics/几何/函数拟合 19906ec5669a4c0ca23a63cfb8e93b52.md"
+    },
+    {
+      "basename": "参数拟合 39d028c50cd14689aea569a133930efd",
+      "path": "Computer Graphics/几何/参数拟合 39d028c50cd14689aea569a133930efd.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Computer Graphics/几何/参数拟合 39d028c50cd14689aea569a133930efd/Untitled.png"
+    },
+    {
+      "basename": "GAME101",
+      "path": "Computer Graphics/Rendering/GAME101.md"
+    },
+    {
+      "basename": "Hair 毛发",
+      "path": "AWESOME/笔记库/Hair 毛发.md"
+    },
+    {
+      "basename": "Render理论一切从此处开始",
+      "path": "AWESOME/Render理论一切从此处开始.canvas"
+    },
+    {
+      "basename": "OpenGL",
+      "path": "AWESOME/OpenGL.md"
+    },
+    {
+      "basename": "渲染系统",
+      "path": "AWESOME/渲染系统.md"
+    },
+    {
+      "basename": "通信基础",
+      "path": "The Theory of Computer Networks/物理层/通信基础.md"
+    },
+    {
+      "basename": "无线传输",
+      "path": "The Theory of Computer Networks/物理层/无线传输.md"
+    },
+    {
+      "basename": "电子邮件",
+      "path": "The Theory of Computer Networks/应用层协议/电子邮件.md"
+    },
+    {
+      "basename": "数据链路交换",
+      "path": "The Theory of Computer Networks/数据链路层/数据链路交换.md"
+    },
+    {
+      "basename": "蓝牙",
+      "path": "The Theory of Computer Networks/数据链路层/蓝牙.md"
+    },
+    {
+      "basename": "无线LAN",
+      "path": "The Theory of Computer Networks/数据链路层/无线LAN.md"
+    },
+    {
+      "basename": "多路访问协议",
+      "path": "The Theory of Computer Networks/数据链路层/多路访问协议.md"
+    },
+    {
+      "basename": "错误检测和纠正",
+      "path": "The Theory of Computer Networks/数据链路层/错误检测和纠正.md"
+    },
+    {
+      "basename": "封装成帧",
+      "path": "The Theory of Computer Networks/数据链路层/封装成帧.md"
+    },
+    {
+      "basename": "卫星通信",
+      "path": "The Theory of Computer Networks/物理层/卫星通信.md"
+    },
+    {
+      "basename": "有线电视",
+      "path": "The Theory of Computer Networks/物理层/有线电视.md"
+    },
+    {
+      "basename": "蜂窝网络",
+      "path": "The Theory of Computer Networks/物理层/蜂窝网络.md"
+    },
+    {
+      "basename": "电话交换网络",
+      "path": "The Theory of Computer Networks/物理层/电话交换网络.md"
+    },
+    {
+      "basename": "有线传输介质",
+      "path": "The Theory of Computer Networks/物理层/有线传输介质.md"
+    },
+    {
+      "basename": "数据交换方式",
+      "path": "The Theory of Computer Networks/物理层/数据交换方式.md"
+    },
+    {
+      "basename": "Coroutine in C++",
+      "path": "Modern C++/Parallel programming/Coroutine in C++.md"
+    },
+    {
+      "basename": "Thread in C++",
+      "path": "Modern C++/Parallel programming/Thread in C++.md"
+    },
+    {
+      "basename": "The theory of concurrent programming",
+      "path": "Modern C++/Parallel programming/The theory of concurrent programming.md"
+    },
+    {
+      "basename": "反射",
+      "path": "Modern C++/Network Programming/反射.md"
+    },
+    {
+      "basename": "函数式编程 with C++",
+      "path": "Modern C++/Generic Programming & Functional Programming/函数式编程 with C++.md"
+    },
+    {
+      "basename": "C++泛型编程基础",
+      "path": "Modern C++/Generic Programming & Functional Programming/C++泛型编程基础.md"
+    },
+    {
+      "basename": "C++11 constexpr关键字",
+      "path": "Modern C++/Generic Programming & Functional Programming/C++11 constexpr关键字.md"
+    },
+    {
+      "basename": "使用constexpr在编译期解决FizzBuzz问题",
+      "path": "Modern C++/Generic Programming & Functional Programming/使用constexpr在编译期解决FizzBuzz问题.md"
+    },
+    {
+      "basename": "模板元和函数式编程 ",
+      "path": "Modern C++/Generic Programming & Functional Programming/模板元和函数式编程 .md"
+    },
+    {
+      "basename": "强制类型转换 ",
+      "path": "Modern C++/Basic Concepts/强制类型转换 .md"
+    },
+    {
+      "basename": "文件处理",
+      "path": "Modern C++/Basic Concepts/文件处理.md"
+    },
+    {
+      "basename": "C++的文件流操作.excalidraw",
+      "path": "Modern C++/Basic Concepts/_excalidraw/C++的文件流操作.excalidraw.md"
+    },
+    {
+      "basename": "文件流对象",
+      "path": "Modern C++/Basic Concepts/_pic/文件流对象.png"
+    },
+    {
+      "basename": "Context - 目录 - 待修改",
+      "path": "Modern C++/Context - 目录 - 待修改.md"
+    },
+    {
+      "basename": "Every Programmer Should Know About Memory",
+      "path": "Modern C++/Memory Management/_pdf/Every Programmer Should Know About Memory.md"
+    },
+    {
+      "basename": "补码的定义01.excalidraw",
+      "path": "Modern C++/Basic Concepts/_excalidraw/补码的定义01.excalidraw.md"
+    },
+    {
+      "basename": "C++ in Unreal",
+      "path": "Modern C++/C++ in Unreal.md"
+    },
+    {
+      "basename": "Drawing 2024-10-20 18.40.54.excalidraw",
+      "path": "Tools With C++/_excalidraw/Drawing 2024-10-20 18.40.54.excalidraw.md"
+    },
+    {
+      "basename": "Rending.excalidraw",
+      "path": "AWESOME/_excalidraw/Rending.excalidraw.md"
+    }
+  ],
+  "omittedPaths": [],
+  "maxLength": null,
+  "openType": "tab"
+}

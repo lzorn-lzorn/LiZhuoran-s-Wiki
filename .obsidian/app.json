@@ -1,0 +1,23 @@
+{
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "/",
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "communityThemeSortOrder": "download",
+  "showUnsupportedFiles": true,
+  "showInlineTitle": true,
+  "spellcheckLanguages": null,
+  "spellcheckDictionary": [
+    "我希望从事于关于三维重建方向的研究，旨在用使用深度学习的技术在模型重建逆渲染中得到更好的重建效果。具体来说，由于传统的MVS方法是由多个不连续的阶段组成的，这样每个阶段的误差又会被输入到下一个阶段，误差会逐渐累计。我希望用一个统一的方法即输入一系列不同角度的图片，通过网络直接得到几何表示，材质和光照信息。"
+  ],
+  "propertiesInDocument": "visible",
+  "rightToLeft": false,
+  "showLineNumber": true,
+  "focusNewTab": true
+}

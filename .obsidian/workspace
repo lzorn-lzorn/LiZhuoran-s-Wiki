@@ -1,0 +1,176 @@
+{
+  "main": {
+    "id": "104dc575764e7821",
+    "type": "split",
+    "children": [
+      {
+        "id": "0c95427771225a85",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Computer Science/Modern Fancy C++/contents/Generic Programming & Functional Programming.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7c478374cbaed794",
+    "type": "split",
+    "children": [
+      {
+        "id": "5eb979ffd9b51e5b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "10a70c3f613d2f0f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "1d90ba70e4f083d5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "846cab64a66f0014",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 242
+  },
+  "right": {
+    "id": "9635e7a2278636eb",
+    "type": "split",
+    "children": [
+      {
+        "id": "8789b6b8de3fcd86",
+        "type": "tabs",
+        "dimension": 24.422933730454204,
+        "children": [
+          {
+            "id": "1be19c96a4057139",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Computer Science/Modern Fancy C++/contents/Generic Programming & Functional Programming.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "78f79a442d3b4b37",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Computer Science/Modern Fancy C++/contents/Generic Programming & Functional Programming.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "cfbe3dd1594ed823",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "c67da8fb66e3052d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "6a2d7bc4a906f4fb",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      },
+      {
+        "id": "9b3d99532bd78186",
+        "type": "tabs",
+        "dimension": 75.5770662695458,
+        "children": [
+          {
+            "id": "4dcf29e3f9ea8f13",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Computer Science/Modern Fancy C++/contents/Generic Programming & Functional Programming.md"
+              }
+            }
+          },
+          {
+            "id": "511e2d2513d1e87d",
+            "type": "leaf",
+            "state": {
+              "type": "side-panel-control-view",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 255
+  },
+  "active": "0c95427771225a85",
+  "lastOpenFiles": [
+    "Computer Science/Modern Fancy C++/Memory Management/C++的内存管理RAII思想.md",
+    "Math/Notes/Algebra/线性代数/04-线性映射与矩阵.md",
+    "Math/Notes/Algebra/线性代数/1-向量空间.md",
+    "Math/Notes/Algebra/线性代数/03-线性映射.md",
+    "Math/Notes/Algebra/线性代数/2.2-向量组与矩阵.md",
+    "Project Management/git and github.md",
+    "2022-10-04.md",
+    "obsidian 使用进阶/Mermaid.md",
+    "Math/Notes/Algebra/线性代数/05-多项式.md",
+    "Math/Notes/Algebra/线性代数/2.1-矩阵.md"
+  ]
+}

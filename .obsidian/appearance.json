@@ -1,0 +1,17 @@
+{
+  "translucency": false,
+  "cssTheme": "AnuPpuccin",
+  "interfaceFontFamily": "霞鹜文楷 GB 屏幕阅读版,Comic Sans MS,Bradley Hand ITC",
+  "textFontFamily": "阅读学习舒适黑,Comic Sans MS",
+  "baseFontSize": 21,
+  "theme": "moonstone",
+  "accentColor": "#8acee5",
+  "nativeMenus": false,
+  "showViewHeader": true,
+  "baseFontSizeAction": true,
+  "monospaceFontFamily": "Cascadia Code",
+  "enabledCssSnippets": [
+    "print",
+    "custom-admonitions.e49c2d"
+  ]
+}
