@@ -174,7 +174,26 @@ git checkout -b feature1 origin/feature1 简写 git checkout feature1 相当于�
 git stash drop stash@{1} 可以直接删除1号stash也就是上一次的修改，注意把1删除之后原来的2就变成1了
 
 
-# HEAD 指针
+# GitIgnore
+在一个实际的工程中，很多时候并不是所有文件都需要上传至remote，比如.vscode .clangd .clang-format 等，此时你应该创建一个 .gitignore 文件来告诉git 什么文件不要上传
+
+其规则是：
+以”#”号开头表示注释；
+以斜杠“/”开头表示目录；
+以星号“\*”通配多个字符；
+以问号“?”通配单个字符
+以方括号“\[]”包含单个字符的匹配列表；
+以叹号“!”表示不忽略(跟踪)匹配到的文件或目录；
+
+例如：
+`*.txt`  ，`*.xls`  表示过滤某种类型的文件
+`target/` 表示过滤这个文件夹下的所有文件
+`/test/a.txt` ，`/test/b.xls`  表示指定过滤某个文件下具体文件
+`!*.cpp` , `!/dir/test/`     !开头表示不过滤
+`*.[ab]`    支持通配符：过滤所有以.a或者.b为扩展名的文件
+`/test`  仅仅忽略项目根目录下的 test 文件，不包括 child/test等非根目录的test目录
+
+
 
 
 
