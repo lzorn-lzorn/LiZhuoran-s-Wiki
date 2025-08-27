@@ -1,0 +1,65 @@
+# Makefile (Windows) - 在你原有 makefile 基础上增加 installer 目标示例
+C_STD = /std:c11
+CPP_STD = /std:c++20
+
+APPNAME = MyApp
+VERSION = 1.0.0
+PACKAGE_DIR = package
+NSIS = makensis          # 假定 makensis 在 PATH 中
+INNO = ISCC              # 假定 Inno Setup 编译器 ISCC 在 PATH 中
+ZIPNAME = $(APPNAME)-$(VERSION).zip
+NSIS_SCRIPT = installer.nsi
+INNO_SCRIPT = installer.iss
+PS_INSTALLER = install.ps1
+
+all: main.exe List.dll
+
+# 原始编译与打包规则（保留你的规则并略作整理）
+main.exe: main.obj List.lib
+	cl /SUBSYSTEM:CONSOLE main.obj List.lib
+
+main.obj: main.c List/List.h
+	cl /c $(C_STD) main.c
+
+List.lib: List.obj
+	lib /out:List.lib List.obj
+
+List.dll: List.obj
+	link /dll /out:List.dll List.obj
+
+List.obj: List/List.c List/List.h
+	cl /c /FoList.obj $(C_STD) List/List.c
+
+clean:
+	del /Q main.obj List.obj List.lib List.dll main.exe
+	if exist $(PACKAGE_DIR) rmdir /s /q $(PACKAGE_DIR)
+	if exist $(ZIPNAME) del /Q $(ZIPNAME)
+
+# 打包到 package 目录（与你已有的 package 目标一致）
+package: all
+	if not exist $(PACKAGE_DIR) mkdir $(PACKAGE_DIR)
+	if not exist $(PACKAGE_DIR)\include mkdir $(PACKAGE_DIR)\include
+	if not exist $(PACKAGE_DIR)\lib mkdir $(PACKAGE_DIR)\lib
+	copy /Y List\List.h $(PACKAGE_DIR)\include > nul
+	copy /Y List.lib $(PACKAGE_DIR)\lib > nul
+	copy /Y List.dll $(PACKAGE_DIR) > nul
+	copy /Y main.exe $(PACKAGE_DIR) > nul
+	rem 生成 zip（需要 powershell）
+	powershell -Command "Compress-Archive -Path '$(PACKAGE_DIR)\\*' -DestinationPath '$(ZIPNAME)' -Force"
+
+# 方案 1: 生成 NSIS 安装器（需要安装 NSIS，makensis 在 PATH）
+installer-nsis: package
+	@if not exist "$(NSIS)" echo "Error: makensis not found in PATH" & exit /b 1
+	"$(NSIS)" /NOCD $(NSIS_SCRIPT)
+
+# 方案 2: 生成 Inno Setup 安装器（需要安装 Inno Setup，ISCC 在 PATH）
+installer-inno: package
+	@if not exist "$(INNO)" echo "Error: ISCC not found in PATH" & exit /b 1
+	"$(INNO)" /Qp $(INNO_SCRIPT)
+
+# 方案 3: 生成简单的 PowerShell 安装脚本包（可直接运行）
+installer-ps: package
+	copy /Y $(PS_INSTALLER) $(PACKAGE_DIR) > nul
+	echo "已把 install.ps1 放入 $(PACKAGE_DIR)。用户可以右键 -> 以管理员运行 PowerShell 来执行安装。"
+
+.PHONY: all clean package installer-nsis installer-inno installer-ps

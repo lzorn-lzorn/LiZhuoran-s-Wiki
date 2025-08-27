@@ -193,11 +193,6 @@ git stash drop stash@{1} 可以直接删除1号stash也就是上一次的修改�
 `*.[ab]`    支持通配符：过滤所有以.a或者.b为扩展名的文件
 `/test`  仅仅忽略项目根目录下的 test 文件，不包括 child/test等非根目录的test目录
 
-
-
-
-
-
 # Reference
 1. [Git 使用规范 from 阮一峰](https://www.ruanyifeng.com/blog/2015/08/git-use-process.html)
 2. [常用Git命令清单 from 阮一峰](https://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html)
